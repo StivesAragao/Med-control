@@ -8,7 +8,3 @@ def disparar_alerta(nome_remedio):
         app_name="Controle de Medicamentos",
         timeout=10  # O aviso some depois de 10 segundos
     )
-
-# Teste rápido: se rodar este arquivo sozinho, um aviso deve aparecer no seu PC
-if __name__ == "__main__":
-    disparar_alerta("Teste de Exemplo")
