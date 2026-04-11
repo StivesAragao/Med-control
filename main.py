@@ -14,7 +14,7 @@ def verificar_horarios():
         remedios = listar_remedios()
         
         for remedio in remedios:
-            if remedio['horario'] == agora and remedio['nome'] not in alertados:
+            if remedio['horario']==agora and remedio['nome'] not in alertados:
                 disparar_alerta(remedio['nome'])
                 alertados.append(remedio['nome'])
         

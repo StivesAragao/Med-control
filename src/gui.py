@@ -101,7 +101,6 @@ class AppRemedios(ctk.CTk):
         janela_edit.title(f"Editando {nome_antigo}")
         janela_edit.geometry("350x300")
         
-        # Garante que ela nasça na frente e capture o foco
         janela_edit.attributes("-topmost", True)
         janela_edit.focus_force() 
         janela_edit.grab_set()
