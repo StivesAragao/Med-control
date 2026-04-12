@@ -1,7 +1,7 @@
 # Med-Control 💊
 
 **Autor:** Stives Aragão  
-**Versão:** 1.0.0  
+**Versão:** 1.2.2  
 **Status:** Finalizado (Projeto Acadêmico - UniCEUB)
 
 📋 Descrição do Problema Real
