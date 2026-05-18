@@ -45,3 +45,21 @@ O **Med-Control** é uma aplicação desktop simples e intuitiva que permite ao 
 - Para rodar a análise estática (Lint):
   ```
   python -m flake8 src/
+
+## 🚀 Entrega Intermediária
+
+* **Status da Pipeline:** ![CI/CD Git Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-green)
+* **Link do Repositório:** [https://github.com/StivesAragao]
+
+### 🛠️ Como executar a aplicação
+1. Instale a biblioteca necessária:
+   ```bash
+   pip install requests
+
+2. Execute o sistema principal:
+   ```bash
+   python main.py
+
+3. 🧪 Como rodar os testes de integração
+   ```bash
+   python tests/test_api.py
